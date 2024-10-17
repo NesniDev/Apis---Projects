@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dirección IP</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/ip.png">
+</head>
+<body>
+    <main>
+        <form id="formulario">
+            <label for="ip">
+                IP del usuario
+            </label>
+            <input type="text" placeholder="Ingrese aquí su Dirección IP" id="ip" required>
+            <small>Por ejemplo: 206.71.50.230</small>
+            <button id="submit" type="submit">Buscar Información</button>
+            
+        </form>
+        <div>
+            <pre id="result">
+                <small>Aquí se visualizará la información de la dirección IP</small>
+            </pre>
+        </div>
+        <button class="limpiar">Limpiar</button>
+    </main>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
