@@ -46,6 +46,10 @@ img{
     background-color: #f1b510;
     padding: 5px;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .personaje p{
